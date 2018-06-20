@@ -11,6 +11,13 @@
 		8158648120C1E59700688FF6 /* InstumentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158648020C1E59700688FF6 /* InstumentCollectionViewCell.swift */; };
 		8158648520C2043D00688FF6 /* InstrumentsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158648420C2043D00688FF6 /* InstrumentsCollectionView.swift */; };
 		8158648720C596BE00688FF6 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158648620C596BE00688FF6 /* Instrument.swift */; };
+		8158648B20C5E00D00688FF6 /* InstrumentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8158648A20C5E00D00688FF6 /* InstrumentData.swift */; };
+		818428C020DAD5AA0044433B /* AcousticGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 818428BF20DAD5AA0044433B /* AcousticGuitar.m4a */; };
+		818428C420DAD8740044433B /* Trumpet.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 818428C320DAD8740044433B /* Trumpet.m4a */; };
+		818428C820DAD9A30044433B /* Piano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 818428C720DAD9A30044433B /* Piano.m4a */; };
+		818428CA20DAD9DF0044433B /* Maracas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 818428C920DAD9DF0044433B /* Maracas.m4a */; };
+		818428CE20DADBD80044433B /* ElectricGuitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 818428CD20DADBD70044433B /* ElectricGuitar.m4a */; };
+		818428D020DADC020044433B /* Drums.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 818428CF20DADC010044433B /* Drums.m4a */; };
 		81914E9620BF54F500EB5120 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81914E9520BF54F500EB5120 /* AppDelegate.swift */; };
 		81914E9820BF54F500EB5120 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81914E9720BF54F500EB5120 /* ViewController.swift */; };
 		81914E9D20BF54FA00EB5120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81914E9C20BF54FA00EB5120 /* Assets.xcassets */; };
@@ -33,6 +40,13 @@
 		8158648020C1E59700688FF6 /* InstumentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstumentCollectionViewCell.swift; sourceTree = "<group>"; };
 		8158648420C2043D00688FF6 /* InstrumentsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentsCollectionView.swift; sourceTree = "<group>"; };
 		8158648620C596BE00688FF6 /* Instrument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
+		8158648A20C5E00D00688FF6 /* InstrumentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentData.swift; sourceTree = "<group>"; };
+		818428BF20DAD5AA0044433B /* AcousticGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AcousticGuitar.m4a; sourceTree = "<group>"; };
+		818428C320DAD8740044433B /* Trumpet.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Trumpet.m4a; sourceTree = "<group>"; };
+		818428C720DAD9A30044433B /* Piano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Piano.m4a; sourceTree = "<group>"; };
+		818428C920DAD9DF0044433B /* Maracas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Maracas.m4a; sourceTree = "<group>"; };
+		818428CD20DADBD70044433B /* ElectricGuitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ElectricGuitar.m4a; sourceTree = "<group>"; };
+		818428CF20DADC010044433B /* Drums.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Drums.m4a; sourceTree = "<group>"; };
 		81914E9220BF54F500EB5120 /* Instrumentally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instrumentally.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81914E9520BF54F500EB5120 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81914E9720BF54F500EB5120 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				8158648620C596BE00688FF6 /* Instrument.swift */,
+				8158648A20C5E00D00688FF6 /* InstrumentData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -119,6 +134,12 @@
 		81914E9420BF54F500EB5120 /* Instrumentally */ = {
 			isa = PBXGroup;
 			children = (
+				818428BF20DAD5AA0044433B /* AcousticGuitar.m4a */,
+				818428C320DAD8740044433B /* Trumpet.m4a */,
+				818428C720DAD9A30044433B /* Piano.m4a */,
+				818428C920DAD9DF0044433B /* Maracas.m4a */,
+				818428CF20DADC010044433B /* Drums.m4a */,
+				818428CD20DADBD70044433B /* ElectricGuitar.m4a */,
 				8158648820C59B3000688FF6 /* Models */,
 				8158648220C203D300688FF6 /* Views */,
 				8158648920C59B4300688FF6 /* Controllers */,
@@ -218,8 +239,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				818428C420DAD8740044433B /* Trumpet.m4a in Resources */,
+				818428CE20DADBD80044433B /* ElectricGuitar.m4a in Resources */,
+				818428C820DAD9A30044433B /* Piano.m4a in Resources */,
 				81914EA020BF54FA00EB5120 /* LaunchScreen.storyboard in Resources */,
+				818428D020DADC020044433B /* Drums.m4a in Resources */,
+				818428C020DAD5AA0044433B /* AcousticGuitar.m4a in Resources */,
 				81914E9D20BF54FA00EB5120 /* Assets.xcassets in Resources */,
+				818428CA20DAD9DF0044433B /* Maracas.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8158648B20C5E00D00688FF6 /* InstrumentData.swift in Sources */,
 				8158648520C2043D00688FF6 /* InstrumentsCollectionView.swift in Sources */,
 				81914E9820BF54F500EB5120 /* ViewController.swift in Sources */,
 				8158647F20C1DC9800688FF6 /* InstrumentsView.swift in Sources */,

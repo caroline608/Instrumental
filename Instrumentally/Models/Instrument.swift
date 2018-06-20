@@ -11,10 +11,11 @@ import Foundation
 class Instrument: Codable {
     var image: String
     var name: String
-    var audioFile: String
-    init(image: String, name: String, audioFile: String) {
+    var audioFile: URL?
+    init(image: String, name: String, audioFile: URL) {
         self.image = image
         self.name = name
         self.audioFile = audioFile
     }
+    
 }

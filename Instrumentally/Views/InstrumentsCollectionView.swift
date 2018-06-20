@@ -15,7 +15,7 @@ class InstrumentsCollectionView: UIView {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         let cv = UICollectionView(frame: frame, collectionViewLayout: layout)
-        cv.backgroundColor = UIColor.red
+        cv.backgroundColor = UIColor(displayP3Red: 253/255, green: 124/255, blue: 110/255, alpha: 1)
         
 //        Register CollectionViewCell
         cv.register(InstumentCollectionViewCell.self, forCellWithReuseIdentifier: "InstumentCollectionViewCell")
@@ -33,7 +33,7 @@ class InstrumentsCollectionView: UIView {
     }
     
     private func commonInit() {
-        backgroundColor = .black
+        backgroundColor = .white
         setupViews()
     }
 

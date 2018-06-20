@@ -13,14 +13,15 @@ class InstumentCollectionViewCell: UICollectionViewCell {
     lazy var imageView: UIImageView = {
         let iv = UIImageView()
         iv.contentMode = .scaleAspectFit
-        iv.layer.masksToBounds = true
         iv.backgroundColor = .white
+        iv.layer.cornerRadius = 20.0
+        iv.layer.masksToBounds = true
+
         return iv
     }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        layer.cornerRadius = 20
         commonInit()
     }
     
@@ -33,13 +34,21 @@ class InstumentCollectionViewCell: UICollectionViewCell {
         setupViews()
     }
     
+    override func apply(_ layoutAttributes: UICollectionViewLayoutAttributes) {
+        UIView.animate(withDuration: 1.0) {
+            self.layoutIfNeeded()
+        }
+    }
+    
     private func setupViews() {
         addSubview(imageView)
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 30).isActive = true
+        imageView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor).isActive = true
         imageView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
         imageView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
-        imageView.heightAnchor.constraint(equalTo: safeAreaLayoutGuide.heightAnchor, multiplier: 0.40).isActive = true
+        imageView.heightAnchor.constraint(equalTo: safeAreaLayoutGuide.heightAnchor).isActive = true
     }
+    
+    
     
 }

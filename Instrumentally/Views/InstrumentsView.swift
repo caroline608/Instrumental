@@ -16,8 +16,10 @@ class InstrumentsView: UIView {
         let label = UILabel()
         label.text = "Let's Listen to Music"
         label.textAlignment = .center
-        label.font = UIFont.systemFont(ofSize: 20, weight: UIFont.Weight(rawValue: 20))
-        label.backgroundColor = .cyan
+        label.font = UIFont.systemFont(ofSize: 30, weight: UIFont.Weight(rawValue: 20))
+        label.textColor = .white
+        label.backgroundColor = UIColor(displayP3Red: 253/255, green: 124/255, blue: 110/255, alpha: 1)
+        
         return label
     }()
     
@@ -51,7 +53,7 @@ class InstrumentsView: UIView {
         letsPlayLabel.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor).isActive = true
         letsPlayLabel.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor).isActive = true
         letsPlayLabel.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor).isActive = true
-        letsPlayLabel.heightAnchor.constraint(equalTo: safeAreaLayoutGuide.heightAnchor, multiplier: 0.15).isActive = true
+        letsPlayLabel.heightAnchor.constraint(equalTo: safeAreaLayoutGuide.heightAnchor, multiplier: 0.10).isActive = true
         
         
         addSubview(collectionView)
