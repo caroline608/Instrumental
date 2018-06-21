@@ -64,19 +64,19 @@ extension ViewController: UICollectionViewDelegate {
         audioPlayer.play()
         
         
-        var isHighlighted: Bool{
-            didSet{
-                if isHighlighted{
-                    UIView.animate(withDuration: 0.2, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 1.0, options: .curveEaseOut, animations: {
-                        self.transform = self.transform.scaledBy(x: 0.75, y: 0.75)
-                    }, completion: nil)
-                }else{
-                    UIView.animate(withDuration: 0.2, delay: 0.0, usingSpringWithDamping: 0.4, initialSpringVelocity: 1.0, options: .curveEaseOut, animations: {
-                        self.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0)
-                    }, completion: nil)
-                }
-            }
-        }
+//        var isHighlighted: Bool{
+//            didSet{
+//                if isHighlighted{
+//                    UIView.animate(withDuration: 0.2, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 1.0, options: .curveEaseOut, animations: {
+//                        self.transform = self.transform.scaledBy(x: 0.75, y: 0.75)
+//                    }, completion: nil)
+//                }else{
+//                    UIView.animate(withDuration: 0.2, delay: 0.0, usingSpringWithDamping: 0.4, initialSpringVelocity: 1.0, options: .curveEaseOut, animations: {
+//                        self.transform = CGAffineTransform.identity.scaledBy(x: 1.0, y: 1.0)
+//                    }, completion: nil)
+//                }
+//            }
+//        }
         
 //        let translate = CGAffineTransform(translationX: 50, y: 50)
 //        let scale = CGAffineTransform(scaleX: 4, y: 4)
